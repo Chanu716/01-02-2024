@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main() {
-    int arr[100];  // Array to store elements
+int main() {    
+    int arr[100]; 
     int n, i, j, count = 0;
 
     printf("Enter the number of elements :");
