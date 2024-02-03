@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int arr[100], n, i, j, Unique;
 
@@ -8,7 +7,6 @@ int main() {
 
     printf("Enter %d elements:\n", n);
     for (i = 0; i < n; i++) {
-      printf("Enter the %d element:",i);  
         scanf("%d", &arr[i]);
     }
 
@@ -25,8 +23,6 @@ int main() {
             printf("%d ", arr[i]);
         }
     }
-
     printf("\n");
-
-    return 0;
+   return 0;
 }
