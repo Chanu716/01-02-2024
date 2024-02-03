@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int arr[100], n, i, specified_position, element;
 
@@ -30,6 +29,5 @@ if (specified_position < 0 || specified_position > n) {
         printf("%d ", arr[i]);
     }
     printf("\n");
-
     return 0;
 }
