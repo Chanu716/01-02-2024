@@ -17,7 +17,6 @@ int main() {
        printf("Invalid index to delete.\n");
        return 0;
    }
-
    for (i = indexToDelete; i < n - 1; i++) {
        arr[i] = arr[i + 1];
    }
